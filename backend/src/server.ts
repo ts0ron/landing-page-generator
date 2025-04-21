@@ -1,7 +1,7 @@
 import "dotenv/config";
 import express from "express";
 import cors from "cors";
-import { mongodbService } from "./services/mongodb.service";
+import { mongodbService } from "./services/mongodb";
 import landingPageRoutes from "./routes/landingPage";
 
 const app = express();
