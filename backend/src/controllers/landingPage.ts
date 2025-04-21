@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
-import { GooglePlacesService } from "../services/googlePlaces.service";
-import { OpenAIService } from "../services/openai.service";
+import { GooglePlacesService } from "../services/googlePlaces";
+import { OpenAIService } from "../services/openai";
 import PlaceDetails, {
   IPlaceDetails,
   IPlaceDetailsDocument,
